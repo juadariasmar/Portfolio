@@ -1,10 +1,12 @@
-import React from 'react'
-import Intro from './components/Intro'
+import React from "react";
+import Intro from "./components/intro/Intro";
 
 const App = () => {
   return (
-    <div><Intro/></div>
-  )
-}
+    <div>
+      <Intro />
+    </div>
+  );
+};
 
-export default App
+export default App;
